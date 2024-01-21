@@ -24,7 +24,7 @@ Follow these steps to get started with Ask-your-PDFs:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Ask-Your-PDFs.git
+   git clone https://github.com/akarshrajsingh7/Ask-Your-PDFs.git
    cd Ask-your-PDFs
    ```
 
