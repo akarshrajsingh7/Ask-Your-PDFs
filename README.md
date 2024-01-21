@@ -10,13 +10,22 @@ Ask-your-PDFs is a Python application that leverages Retrieval-Augmented Generat
 
 ![RAG Solution Architecture](./Architecture.png)
 
+## Demo
+<a href="https://huggingface.co/spaces/akarshrajsingh7/Ask-Your-PDFs"> Application Demo </a>
+
+This demo is using **open source model** (not OpenAI API) and hosted on the **free basic CPU machine**. So expect below things-
+1) Slow processing time
+2) Inaccurate results (since the model is not capable to generate chatgpt like outputs)
+
 ## Features
 
 - **Retrieval-Augmented Generation:** Utilizes the power of RAG to enhance the generation of responses by retrieving relevant information from PDF documents.
 
-- **LangChain Integration:** Integrates with LangChain, a Python library for natural language processing and understanding, to enhance language-related tasks.
+- **Interactive Questioning (Chat UI):** Users can ask questions in natural language, and the application will provide detailed and contextually relevant answers. Previous questions in the same session will also be visible
 
-- **Interactive Questioning:** Users can ask questions in natural language, and the application will provide detailed and contextually relevant answers.
+- **Multiple PDFs support** : You can upload one or more files and ask questions on them collectively
+
+- **Open Source LLM support** : The demo link above is using the open source LLM for generating the answer
 
 ## Getting Started
 
